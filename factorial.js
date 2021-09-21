@@ -1,10 +1,10 @@
 function factorial(n) {
     let product = 1;
-    if( n== 0 || n==1){
+    if (n == 0 || n == 1) {
         return product;
-    }else{
-        for(var i=n; i >=1; i--){
-product = product * i;
+    } else {
+        for (var i = n; i >= 1; i--) {
+            product = product * i;
         }
         return product;
     }
